@@ -7,7 +7,7 @@ function logar() {
 
 
     if (user == 'admin' && pass == 'admin') {
-        location.href = "../Menu/home.html"
+        location.href = "Menu/home.html"
     }
     document.querySelector('#msg_error').innerHTML = err
 
