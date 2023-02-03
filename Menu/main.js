@@ -3,6 +3,7 @@
     const user = null
     const func = 'Administrador'
 
+    // Validadação de Usuário
     if (user == user) {
         name_user.innerHTML = user + ' | ' + func
     }
