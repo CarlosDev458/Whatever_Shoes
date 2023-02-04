@@ -9,7 +9,12 @@ function logar() {
     if (user == 'admin' && pass == 'admin') {
         location.href = "Menu/home.html"
     }
-    document.querySelector('#msg_error').innerHTML = err
+    setInterval(user_not_auth, 300);
+    function user_not_auth() {
+        document.querySelector('#msg_error').innerHTML = err
+    }
+
+
 
 
 }

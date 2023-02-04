@@ -1,3 +1,6 @@
+
+          /* ESTILIZAÇÃO: NAVBAR E SIDEBAR */
+
 body {
   background-color: #fbfbfb;
 }
@@ -97,17 +100,6 @@ body {
   color: #ffffff;
 }
 
-.container {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.container h1 {
-  font-size: 50px;
-}
 
 #list-and-log-off {
   display: flex;
@@ -129,3 +121,6 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+
+ 

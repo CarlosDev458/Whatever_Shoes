@@ -9,7 +9,3 @@ function user() {
         name_user.innerHTML = user + ' | ' + func
     }
 }
-
-function logoff() {
-    location.href = "../index.html"
-}
