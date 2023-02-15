@@ -1,8 +1,7 @@
-
-          /* ESTILIZAÇÃO: NAVBAR E SIDEBAR */
+/* ESTILIZAÇÃO: NAVBAR E SIDEBAR */
 
 body {
-  background-color: #fbfbfb;
+  background-color: #efefef;
 }
 
 @media (min-width: 991.98px) {
@@ -32,7 +31,8 @@ body {
 
 .sidebar .active {
   border-radius: 5px;
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); -*/
 }
 
 .sidebar-sticky {
@@ -89,15 +89,17 @@ body {
 }
 
 #list_itens a {
-  font-size: 20px;
+  font-size: 22px;
   color: #000000;
+  /* text-decoration: ;*/
   /* padding: px; */
-
 }
+
 
 #list_itens a:hover {
   background-color: rgb(129, 18, 151);
   color: #ffffff;
+  font-size: 24px;
 }
 
 
@@ -109,18 +111,21 @@ body {
 }
 
 #btn-logoff input {
-  font-size: 20px;
+  font-size: 22px;
   background-color: rgb(129, 18, 151);
   width: 100px;
   color: #ffffff;
+}
 
-
+#btn-logoff input:hover {
+  font-size: 23px;
+  background-color: rgb(129, 18, 151);
+  width: 100px;
+  color: #ffffff;
 }
 
 #btn-logoff {
   padding: 10px;
   text-align: center;
+  border-top: 1px solid gray;
 }
-
-
- 
