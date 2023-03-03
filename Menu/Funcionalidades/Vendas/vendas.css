@@ -1,129 +1,105 @@
+/* Estilizando o Painel de Vendas */
 
-          /* ESTILIZAÇÃO: NAVBAR E SIDEBAR */
+/* Centralizando/Personalizando painel */
+main {
+  padding-right: 30px;
+  padding-left: 275px;
+}
 
-          body {
-            background-color: #fbfbfb;
-          }
-          
-          @media (min-width: 991.98px) {
-            main {
-              padding-left: 240px;
-            }
-          }
-          
-          /* Sidebar */
-          .sidebar {
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            padding: 39px 0 0;
-            /* Height of navbar */
-            box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-            width: 240px;
-            z-index: 600;
-          }
-          
-          @media (max-width: 991.98px) {
-            .sidebar {
-              width: 100%;
-            }
-          }
-          
-          .sidebar .active {
-            border-radius: 5px;
-            box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-          }
-          
-          .sidebar-sticky {
-            position: relative;
-            top: 0;
-            height: calc(100vh - 48px);
-            padding-top: 0.5rem;
-            overflow-x: hidden;
-            overflow-y: auto;
-            /* Scrollable contents if viewport is shorter than content. */
-          }
-          
-          
-          .navbar-brand {
-            display: flex;
-            align-items: center;
-          
-          }
-          
-          #link_null {
-            text-decoration: none;
-            color: black;
-            font-size: 30px;
-            font-weight: 400;
-          }
-          
-          
-          
-          #main-navbar {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-            background-color: rgb(255, 255, 255);
-          }
-          
-          .change_navbar {
-            display: flex;
-            flex-wrap: nowrap;
-          }
-          
-          .navbar-brand {
-            padding-left: 20px;
-          }
-          
-          .user_logged {
-            padding-right: 20px;
-          }
-          
-          #user_name {
-            font-size: 20px;
-            margin: 0px;
-          }
-          
-          #list_itens a {
-            font-size: 20px;
-            color: #000000;
-            /* padding: px; */
-          
-          }
-          
-          #list_itens a:hover {
-            background-color: rgb(129, 18, 151);
-            color: #ffffff;
-          }
-          
-          
-          #list-and-log-off {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 100%;
-          }
-          
-          #btn-logoff input {
-            font-size: 20px;
-            background-color: rgb(129, 18, 151);
-            width: 100px;
-            color: #ffffff;
-          
-          
-          }
-          
-          #btn-logoff {
-            padding: 10px;
-            text-align: center;
-          }
-          
-          
-                    /* ESTILIZAÇÃO: CONTAINER(CONTEÚDO) */
-          
-          
-    
+.content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* Funções do Painel: Nova Venda/Input(Filtrar) */
+.form {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+/* Botão Nova Venda */
+.btn_venda {
+  height: 45px;
+  margin-right: 40px;
+  background-color: rgb(129, 18, 151);
+  color: white;
+}
+
+/* Tamanho Input */
+.filter_venda {
+  width: 600px;
+  height: 45px;
+}
+
+/* Todos Botões Quando Interagidos Ficarem Mais Claro  */
+.btn:hover {
+  color: white;
+  background-color: rgb(155, 98, 167);
+  ;
+}
+
+/* Botão Filtrar */
+.btn_filter {
+  height: 45px;
+  background-color: rgb(129, 18, 151);
+  color: white;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* Alinhamento/Tamanho: Titúlo */
+.title_central {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.title_central {
+  font-size: 40px;
+}
+
+/* Estilização: Tabela de Vendas */
+
+/* Tamanho Tabela */
+.table_sales {
+  width: 100%;
+}
+
+/* Campos do Cabeçalho */
+.cabeçalho {
+  background-color: rgb(117, 117, 117);
+  color: white;
+  border: 1px solid rgb(71, 71, 71);
+}
+
+/* Alinhando Itens do Cabeçalho */
+.col {
+  text-align: center;
+}
+
+/* Linhas da Tabela com Dados (Registro) */
+.dados_venda {
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+}
+
+/* Espaçamento de um Registro para Outro */
+.dados_item {
+  border-bottom: 3px solid white;
+}
+
+/* Tamanho da Imagem de Editar/Excluir Vendas */
+.dados_item img {
+  height: 20px;
+  width: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tamanho das Colunas */
+#th_funcs {
+  width: 20px;
+  border-right: 0px;
+}

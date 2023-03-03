@@ -1,6 +1,4 @@
- /* ESTILIZAÇÃO: CONTAINER(CONTEÚDO) */
-
-
+/* Estilo Do Conteúdo */
  .container {
      height: 80vh;
      display: flex;

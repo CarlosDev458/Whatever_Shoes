@@ -1,16 +1,10 @@
-/* ESTILIZAÇÃO: NAVBAR E SIDEBAR */
+/* Estilo da Navbar/Sidebar */
 
 body {
   background-color: #efefef;
 }
 
-@media (min-width: 991.98px) {
-  main {
-    padding-left: 240px;
-  }
-}
-
-/* Sidebar */
+/* CSS Sidebar */
 .sidebar {
   position: fixed;
   top: 0;
@@ -23,18 +17,6 @@ body {
   z-index: 600;
 }
 
-@media (max-width: 991.98px) {
-  .sidebar {
-    width: 100%;
-  }
-}
-
-.sidebar .active {
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); -*/
-}
-
 .sidebar-sticky {
   position: relative;
   top: 0;
@@ -42,14 +24,49 @@ body {
   padding-top: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
-  /* Scrollable contents if viewport is shorter than content. */
+}
+
+#list_itens a {
+  font-size: 22px;
+  color: #000000;
+}
+
+#list_itens a:hover {
+  background-color: rgb(138, 27, 160);
+  color: #ffffff;
+  font-size: 23px;
 }
 
 
+#list-and-log-off {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#btn-logoff input {
+  font-size: 20px;
+  background-color: rgb(129, 18, 151);
+  width: 100px;
+  color: #ffffff;
+}
+
+#btn-logoff input:hover {
+  background-color: rgb(155, 98, 167);
+
+}
+
+#btn-logoff {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid rgb(145, 145, 145);
+}
+
+/* CSS Navbar */
 .navbar-brand {
   display: flex;
   align-items: center;
-
 }
 
 #link_null {
@@ -58,8 +75,6 @@ body {
   font-size: 30px;
   font-weight: 400;
 }
-
-
 
 #main-navbar {
   display: flex;
@@ -79,53 +94,4 @@ body {
   padding-left: 20px;
 }
 
-.user_logged {
-  padding-right: 20px;
-}
 
-#user_name {
-  font-size: 20px;
-  margin: 0px;
-}
-
-#list_itens a {
-  font-size: 22px;
-  color: #000000;
-  /* text-decoration: ;*/
-  /* padding: px; */
-}
-
-
-#list_itens a:hover {
-  background-color: rgb(129, 18, 151);
-  color: #ffffff;
-  font-size: 24px;
-}
-
-
-#list-and-log-off {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
-#btn-logoff input {
-  font-size: 22px;
-  background-color: rgb(129, 18, 151);
-  width: 100px;
-  color: #ffffff;
-}
-
-#btn-logoff input:hover {
-  font-size: 23px;
-  background-color: rgb(129, 18, 151);
-  width: 100px;
-  color: #ffffff;
-}
-
-#btn-logoff {
-  padding: 10px;
-  text-align: center;
-  border-top: 1px solid gray;
-}
