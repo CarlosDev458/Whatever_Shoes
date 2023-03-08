@@ -1,0 +1,110 @@
+/* Estilizando o Painel de Vendas */
+
+/* Centralizando/Personalizando painel */
+main {
+    padding-right: 30px;
+    padding-left: 275px;
+  }
+  
+  .content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  /* Funções do Painel: Nova Venda/Input(Filtrar) */
+  .form {
+    display: flex;
+    padding-bottom: 25px;
+  }
+  
+  /* Botão Nova Venda */
+  .btn_edit {
+    height: 45px;
+    margin-right: 40px;
+    background-color: rgb(129, 18, 151);
+    color: white;
+  }
+  
+  /* Tamanho Input */
+  .filter_edit {
+    width: 600px;
+    height: 45px;
+  }
+  
+  /* Todos Botões Quando Interagidos Ficarem Mais Claro  */
+  .btn:hover {
+    color: white;
+    background-color: rgb(155, 98, 167);
+    ;
+  }
+  
+  /* Botão Filtrar */
+  .btn_filter {
+    height: 45px;
+    background-color: rgb(129, 18, 151);
+    color: white;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  
+  /* Alinhamento/Tamanho: Titúlo */
+  .title_central {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .title_central {
+    font-size: 40px;
+  }
+  
+  /* Estilização: Tabela de Vendas */
+  
+  /* Tamanho Tabela */
+  .table_edit {
+    width: 100%;
+    border: 2px solid rgb(71, 71, 71);
+  }
+  
+  /* Campos do Cabeçalho */
+  .cabeçalho {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border: 2px solid rgb(71, 71, 71);
+  }
+  
+  /* Alinhando Itens do Cabeçalho */
+  .col {
+    text-align: center;
+  }
+  
+  /* Linhas da Tabela com Dados (Registro) */
+  .registros {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+  }
+  
+  /* Espaçamento de um Registro para Outro */
+  .linha_registro {
+    border-bottom: 1px solid rgb(134, 134, 134);
+    height: 35px;
+  }
+  
+  .registros td:hover {
+    background-color: rgb(153, 153, 153);
+  }
+  
+  /* Tamanho da Imagem de Editar/Excluir Vendas */
+  .registros img {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #th_8and9 {
+    width: 35px;
+    border-right: 0px solid ;
+  }
